@@ -47,7 +47,7 @@ Get a list of imagenet labels.
 import json
 from urllib.request import urlopen
 
-URL = "https://raw.githubusercontent.com/sayhi123/swin-transformer-hub/main/imagenet_labels.json"
+URL = "[https://raw.githubusercontent.com/sayhi123/swin-transformer-hub/main/imagenet_labels.json](https://github.com/sayhi123/swin-transformer-hub/blob/main/imagenet_labels.json)"
 response = urlopen(URL)
 classes = json.loads(response.read())
 len(classes) # Should return 1000
